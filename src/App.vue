@@ -7,7 +7,7 @@
       <router-link v-for="(item,index) in navList" :to="item.path">{{ item.name }}</router-link>
     </div>
     <div class="content">
-      <router-view></router-view>
+      <router-view></router-view>  
     </div>
     <div class="footer">
 
