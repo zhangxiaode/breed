@@ -1,0 +1,24 @@
+{
+    "code": 200,
+    "message": "操作成功！",
+    "data": {
+      "userInfoDto": {
+        "token": "Token_ozu0t45iDPC0DCb4fbTlccBJ+B99MZbG9P9Lj6qs7cKDKSmxonwaIrS6BfmA2Pb2s5EE+D81Z0xlDn0oJxe4VUBTdAqM6Yy10F1ea8tGpvw=",
+        "id": "f0087163e82b4aeebd8a83d73256b316",
+        "loginId": "15057159482",
+        "hasPwd": "1",
+        "mobile": "15057159482",
+        "userType": "0",
+        "userName": "",
+        "iconUrl": "",
+        "idCard": "",
+        "zhimaCredit": "",
+        "taobaoFlg": "",
+        "creditCardFlg": "",
+        "iPhoneFlg": "",
+        "phoneNumVerifyFlg": "",
+        "channelCode": "",
+        "matchingRate": "0"
+      }
+    }
+  }
