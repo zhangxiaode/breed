@@ -1,3 +1,46 @@
 html,body,.breed{
     height:100%;
 }
+.header{
+    background:url(../images/header.jpg) no-repeat center center;
+    background-size:cover;
+    height:150px;
+    .logo{
+        display:block;width:1100px;height:100%;margin:0 auto;
+        background:url(../images/logo.png) no-repeat center center;
+        background-size:cover;
+    }
+}
+.nav{
+    height:60px;background:#fec;
+    ul{
+        height:60px;margin:0 auto;text-align:center;overflow:hidden;
+        li{
+            display:inline-block;height:40px;margin:10px;
+            position:relative;
+            a{
+                display:block;padding:0 15px;overflow:hidden;
+                font:bold 14px/40px 'Microsoft Yahei';
+                background:#fff;border-radius:5px;
+            }
+            a:after{
+                content:'';height:30px;position:absolute;right:-11px;top:5px;width:1px;background:#fff;
+            }
+        }
+        .actived{
+            a{
+                background:#f84;
+                color:#fff;
+            }
+        }
+    }
+}
+.content{
+    padding:10px 0;
+}
+.footer{
+    height:40px;text-align:center;font:normal 12px/40px "Microsoft Yahei";color:#999;
+    span{
+        color:#f88;
+    }
+}
