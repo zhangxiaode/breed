@@ -86,15 +86,10 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ["vue-style-loader", "css-loader"]
-      },
-      {
-          test: /\.less$/,
-          use: ["vue-style-loader", "css-loader", "less-loader"]
-      },
-      {
-          test: /\.(scss|sass)$/,
-          use: ["node-sass", "vue-style-loader", "css-loader", "sass-loader"]
+        include: [
+          '/node_modules/element-ui/lib/'   //增加此项  
+        ],  
+        loader: 'style-loader!css-loader!less-loader!sass-loader!postcss-loader'
       }
     ]
   }
