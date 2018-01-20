@@ -55,10 +55,10 @@ export default {
         {value:"幼之阿斯顿幼虾收获6",date:"2018/01/12"}
       ],
       newsBox3:[
-        {imgUrl:"../../static/images/germchitImg17.jpg"},
-        {imgUrl:"../../static/images/germchitImg18.jpg"},
-        {imgUrl:"../../static/images/germchitImg12.jpg"},
-        {imgUrl:"../../static/images/germchitImg11.jpg"}
+        {imgUrl:require("@img/germchitImg17.jpg")},
+        {imgUrl:require("@img/germchitImg18.jpg")},
+        {imgUrl:require("@img/germchitImg12.jpg")},
+        {imgUrl:require("@img/germchitImg11.jpg")}
       ],
     }
   },

@@ -21,24 +21,24 @@ export default {
   data () {
     return {
       newsBox1:[
-        {imgUrl:"../../static/images/germchitImg1.jpg"},
-        {imgUrl:"../../static/images/germchitImg2.jpg"},
-        {imgUrl:"../../static/images/germchitImg3.jpg"},
-        {imgUrl:"../../static/images/germchitImg4.jpg"},
-        {imgUrl:"../../static/images/germchitImg5.jpg"},
-        {imgUrl:"../../static/images/germchitImg6.jpg"},
-        {imgUrl:"../../static/images/germchitImg7.jpg"},
-        {imgUrl:"../../static/images/germchitImg8.jpg"}
+        {imgUrl:require("@img/germchitImg1.jpg")},
+        {imgUrl:require("@img/germchitImg2.jpg")},
+        {imgUrl:require("@img/germchitImg3.jpg")},
+        {imgUrl:require("@img/germchitImg4.jpg")},
+        {imgUrl:require("@img/germchitImg5.jpg")},
+        {imgUrl:require("@img/germchitImg6.jpg")},
+        {imgUrl:require("@img/germchitImg7.jpg")},
+        {imgUrl:require("@img/germchitImg8.jpg")}
       ],
       newsBox2:[
-        {imgUrl:"../../static/images/germchitImg11.jpg"},
-        {imgUrl:"../../static/images/germchitImg12.jpg"},
-        {imgUrl:"../../static/images/germchitImg13.jpg"},
-        {imgUrl:"../../static/images/germchitImg14.jpg"},
-        {imgUrl:"../../static/images/germchitImg15.jpg"},
-        {imgUrl:"../../static/images/germchitImg16.jpg"},
-        {imgUrl:"../../static/images/germchitImg17.jpg"},
-        {imgUrl:"../../static/images/germchitImg18.jpg"}
+        {imgUrl:require("@img/germchitImg11.jpg")},
+        {imgUrl:require("@img/germchitImg12.jpg")},
+        {imgUrl:require("@img/germchitImg13.jpg")},
+        {imgUrl:require("@img/germchitImg14.jpg")},
+        {imgUrl:require("@img/germchitImg15.jpg")},
+        {imgUrl:require("@img/germchitImg16.jpg")},
+        {imgUrl:require("@img/germchitImg17.jpg")},
+        {imgUrl:require("@img/germchitImg18.jpg")}
       ]
     }
   }
