@@ -1,6 +1,6 @@
 <template>
   <div class="map">
-    <div id="mapArea" style="width:100%;height:500px;"></div>
+    <div id="mapArea" :style="'width:100%;height:' + height"></div>
   </div>
 </template>
 
@@ -9,6 +9,11 @@ export default {
   name: 'place',
   data () {
     return {
+    }
+  },
+  computed:{
+    height(){
+      return document.body.clientHeight - 150 - 60 - 40 -20 + "px"
     }
   },
   mounted(){

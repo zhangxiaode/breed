@@ -66,7 +66,9 @@ export default {
     };
   },
   created() {
-    
+    this.navList.forEach((element) => {
+      element.path==this.$route.fullPath?element.status=true:element.status=false;
+    })
   },
   methods: {
     changeNav(item){
