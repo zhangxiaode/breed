@@ -14,7 +14,7 @@
       <router-view></router-view>  
     </div>
     <div class="footer">
-      兴盈龙虾养殖中心  联系人:徐经理  手机: <span>15250851516</span>
+      全椒县西张龙虾养殖专业合作社  联系人:张凤春  手机: <span>13516401935</span>
     </div>
   </div>
 </template>
